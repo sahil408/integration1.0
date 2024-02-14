@@ -1,12 +1,13 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "server,js",
+  "description": "Integrating Backend with frontend",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Sahil Kundan",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
