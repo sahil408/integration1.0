@@ -1,5 +1,3 @@
-import java.io.*;
-
 class reverseString{
 
     static void reverseStr(String str)
