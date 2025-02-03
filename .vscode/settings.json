@@ -1,0 +1,5 @@
+{
+    "accessibility.signals.lineHasBreakpoint": {
+        "sound": "off"
+    }
+}
