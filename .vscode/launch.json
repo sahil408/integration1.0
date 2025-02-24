@@ -5,6 +5,41 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "reversevowels",
+            "request": "launch",
+            "mainClass": "reversevowels",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "CanPlaceFlowers",
+            "request": "launch",
+            "mainClass": "CanPlaceFlowers",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "improvrdKidsWiththeGreatestNumberofCandies",
+            "request": "launch",
+            "mainClass": "improvrdKidsWiththeGreatestNumberofCandies",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "KidsWiththeGreatestNumberofCandies",
+            "request": "launch",
+            "mainClass": "KidsWiththeGreatestNumberofCandies",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "GCDofStrings",
+            "request": "launch",
+            "mainClass": "GCDofStrings",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
