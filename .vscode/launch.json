@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "keypad",
+            "request": "launch",
+            "mainClass": "keypad",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "anagramOfString",
+            "request": "launch",
+            "mainClass": "anagramOfString",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "practice1",
+            "request": "launch",
+            "mainClass": "practice1",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "practice",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "Recursion2",
+            "request": "launch",
+            "mainClass": "Recursion2",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "reverseString",
+            "request": "launch",
+            "mainClass": "reverseString",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "ReverseWordInString",
+            "request": "launch",
+            "mainClass": "ReverseWordInString",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "reversevowels",
             "request": "launch",
             "mainClass": "reversevowels",

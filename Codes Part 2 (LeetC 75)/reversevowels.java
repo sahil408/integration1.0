@@ -1,38 +1,35 @@
 public class reversevowels {
 
-    public static String method1(String str){
+    public static String revString(String str){
 
-
-
-        return str;
-
-    }
-    public static void main(String[] args) {
-        
-        String str = "icecream";
-
+        StringBuilder sb = new StringBuilder();
         char[] ch = str.toCharArray();
 
 
-        method1(str);
-       // System.out.println(str);
-
-        StringBuilder sb = new StringBuilder();
-
-        // for(char i: ch){
-        //     sb.append(i);
-        // }
-
-        String str1 = "";
-
-
-        for(int i=0; i<ch.length; i++){
-            if(ch[i]== 'i' || ch[i]== 'e' || ch[i]== 'a' || ch[i]== 'o' || ch[i]== 'u'){
-                str1 = str.replace(ch[i], '_');
+        for (int i = ch.length-1; i >= 0; i--) {
+            if (isVowel(ch[i])) {
                 sb.append(ch[i]);
+                ch[i] = '_';
             }
         }
-        System.out.println(sb);
-        System.out.println(str1);
+        int index = 0;
+        for(int i=0; i<ch.length;i++){
+            if(ch[i] == '_'){
+            ch[i] = sb.charAt(index++);
+            }
+        }
+        return new String(ch);
+    }
+
+    private static boolean isVowel(char ch){
+            return "aeiouAEIOU".indexOf(ch) != -1;
+    }
+    
+
+    public static void main(String[] args) {
+        String str = "icecream";
+        str = revString(str);
+        System.out.println(str);
+        
     }
 }

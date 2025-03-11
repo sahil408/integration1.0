@@ -19,14 +19,11 @@ class reverseString {
         reverseStr(str);
 
         System.out.println("Reversing only words of String");
+        
+        
         String s = "Lets Reverse Again";
         String[] s1 = s.split(" ");
         int n1 = s1.length;
-
-        for (String temp : s1) {
-            System.out.println(temp);
-        }
-        System.out.println(n1);
 
         for (int i = 0; i < n1; i++) {
             char[] ch = s1[i].toCharArray();
