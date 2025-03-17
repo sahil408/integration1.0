@@ -1,6 +1,6 @@
 public class elemntsClosestToZero {
     public static void main(String[] args) {
-        int[] number = {5,-4,9,8,-3,-2,-2,6,-10};
+        int[] number = {-1,-4,-9,-8,-3,-2,-2,2,-6,-10};
 
         int closest = Integer.MAX_VALUE; //5
 
@@ -13,7 +13,6 @@ public class elemntsClosestToZero {
             }
         }
         System.out.println(closest);
-
     }
 }
 

@@ -1,18 +1,22 @@
 public class defangIPofString {
-    public static void main(String[] args) {
-        String str = "255.255.1.1";
-
-        String defangIP = "";
-
-        for(int i=0;i<str.length();i++){
-            char ch = str.charAt(i);
+    public static void defangIp(String s) {
+        String newdefang = "";
+     
+        for(int i=0; i<s.length();i++){
+            char ch = s.charAt(i);
             if(ch == '.'){
-                defangIP += "[.]";
+                newdefang = newdefang + "[.]";
             }
             else{
-                defangIP +=ch;
+                newdefang = newdefang+ ch;
             }
         }
-        System.out.println(defangIP);
+        System.out.println(newdefang);
+    }
+
+    public static void main(String[] args) {
+        String s = "255.255.1.1";
+        defangIp(s);
+        
     }
 }

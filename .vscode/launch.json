@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "specialCharsinString",
+            "request": "launch",
+            "mainClass": "specialCharsinString",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "evenandodd",
+            "request": "launch",
+            "mainClass": "evenandodd",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "elemntsClosestToZero",
+            "request": "launch",
+            "mainClass": "elemntsClosestToZero",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "defangIPofString",
+            "request": "launch",
+            "mainClass": "defangIPofString",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "codetocapitalisefirstletterofstring",
+            "request": "launch",
+            "mainClass": "codetocapitalisefirstletterofstring",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "chechpalindrome",
+            "request": "launch",
+            "mainClass": "chechpalindrome",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "maze",
+            "request": "launch",
+            "mainClass": "maze",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "permutation",
+            "request": "launch",
+            "mainClass": "permutation",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "keypad",
             "request": "launch",
             "mainClass": "keypad",

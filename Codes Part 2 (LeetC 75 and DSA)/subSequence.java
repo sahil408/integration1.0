@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class Recursion2 {
+public class subSequence {
     public static void printSubseq(String str, int idx, String res, HashSet<String> hs) {
 
         if (idx == str.length()) {

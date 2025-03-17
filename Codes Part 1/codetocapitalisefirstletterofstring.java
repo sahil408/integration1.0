@@ -1,7 +1,7 @@
 public class codetocapitalisefirstletterofstring {
 
-    public static void main(String[] args) {
-        String str = "we had a nice day";
+    public static void capitalisedstring(String str){
+
         String[] s = str.split(" ");
         StringBuilder capitalizedString = new StringBuilder();
 
@@ -17,5 +17,11 @@ public class codetocapitalisefirstletterofstring {
             }
         }
         System.out.println(capitalizedString.toString().trim());
+
+    }
+
+    public static void main(String[] args) {
+        String s = "we had a nice day";
+        capitalisedstring(s);
     }
 }
