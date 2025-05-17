@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "checkpalindrome",
+            "request": "launch",
+            "mainClass": "practiceallcodes.checkpalindrome",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "CanPlaceFlowers",
+            "request": "launch",
+            "mainClass": "practiceallcodes.CanPlaceFlowers",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "anagramofnumbers",
+            "request": "launch",
+            "mainClass": "practiceallcodes.anagramofnumbers",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "revison",
+            "request": "launch",
+            "mainClass": "practiceallcodes.revison",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "noofduplicatechars",
+            "request": "launch",
+            "mainClass": "noofduplicatechars",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "GCDof2Nos",
+            "request": "launch",
+            "mainClass": "GCDof2Nos",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "fibonnacinumber",
+            "request": "launch",
+            "mainClass": "fibonnacinumber",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "reversenumber",
+            "request": "launch",
+            "mainClass": "reversenumber",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "noofoccurence",
+            "request": "launch",
+            "mainClass": "noofoccurence",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "specialCharsinString",
             "request": "launch",
             "mainClass": "specialCharsinString",
