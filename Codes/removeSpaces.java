@@ -18,6 +18,8 @@ public class removeSpaces {
         }
         System.out.println("Love Is");
         System.out.println(res.toString());
+
+        sc.close();
     }
     
 }

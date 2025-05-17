@@ -15,5 +15,7 @@ public class swappingStringsWo3rdVariable {
 
         System.out.println("First String: " + str1 + " Second String: " + str2);
 
+        sc.close();
+
     }
 }
