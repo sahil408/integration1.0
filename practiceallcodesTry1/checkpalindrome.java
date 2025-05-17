@@ -1,4 +1,4 @@
-package practiceallcodes;
+package practiceallcodesTry1;
 
 
 public class checkpalindrome {

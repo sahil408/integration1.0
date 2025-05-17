@@ -1,4 +1,4 @@
-package practiceallcodes;
+package practiceallcodesTry1;
 
 import java.util.Arrays;
 
