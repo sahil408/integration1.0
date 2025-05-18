@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "elementclosesttozer",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.elementclosesttozer",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "defangofIp",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.defangofIp",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "codetoCapitalisefirstCharinString",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.codetoCapitalisefirstCharinString",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "checkpalindrome",
             "request": "launch",
             "mainClass": "practiceallcodes.checkpalindrome",
