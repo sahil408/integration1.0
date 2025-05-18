@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "evenandodd",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.evenandodd",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "elementclosesttozer",
             "request": "launch",
             "mainClass": "practiceallcodesTry1.elementclosesttozer",
