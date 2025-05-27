@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mergetwostringsalternatively",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.mergetwostringsalternatively",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "maza",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.maza",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "keypad",
             "request": "launch",
             "mainClass": "practiceallcodesTry1.keypad",

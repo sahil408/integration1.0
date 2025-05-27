@@ -3,7 +3,7 @@ package practiceallcodesTry1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class improvKidswithgreatestCandies {
+public class KidswithgreatestCandies {
     public static void kidswithmaxcandies(int[] n, int ec) {
         int maxcandies = 0;
 
