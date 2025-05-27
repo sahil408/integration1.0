@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "keypad",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.keypad",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "improvKidswithgreatestCandies",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.improvKidswithgreatestCandies",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "howtoreversestring",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.howtoreversestring",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "GCDof2Strings",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.GCDof2Strings",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "GCDof2Nos",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.GCDof2Nos",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "fibonaccinumber",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.fibonaccinumber",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "passwordsanitizer",
+            "request": "launch",
+            "mainClass": "CodesNew.passwordsanitizer",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "evenandodd",
             "request": "launch",
             "mainClass": "practiceallcodesTry1.evenandodd",
