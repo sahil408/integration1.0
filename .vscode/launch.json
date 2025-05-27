@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mergetwoarraysalsosort",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.mergetwoarraysalsosort",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "mergetwostringsalternatively",
             "request": "launch",
             "mainClass": "practiceallcodesTry1.mergetwostringsalternatively",
