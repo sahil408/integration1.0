@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "noisprime",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.noisprime",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "noOfDupliChars",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.noOfDupliChars",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "numberclosesttozero",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.numberclosesttozero",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "mergetwoarraysalsosort",
             "request": "launch",
             "mainClass": "practiceallcodesTry1.mergetwoarraysalsosort",
