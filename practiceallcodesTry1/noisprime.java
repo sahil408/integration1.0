@@ -2,7 +2,7 @@ package practiceallcodesTry1;
 
 public class noisprime {
     public static void callprime(int n){
-        int count =0;
+        //int count =0;
         if(n<=1){
             System.out.println("Number is not prime");
         }else if(n==2){
