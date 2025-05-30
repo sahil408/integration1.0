@@ -11,13 +11,13 @@ public class paranthesis {
             if( c == '{' || c=='['|| c=='(' ){
                 stack.push(c);
             }
-            else if(c==')' && !s.isEmpty() && stack.peek() == '('){
+            else if(c==')' && !stack.isEmpty() && stack.peek() == '('){
                 stack.pop();
             }
-            else if(c==']' && !s.isEmpty() && stack.peek() == '['){
+            else if(c==']' && !stack.isEmpty() && stack.peek() == '['){
                 stack.pop();
             }
-            else if(c=='}' && !s.isEmpty() && stack.peek() == '{'){
+            else if(c=='}' && !stack.isEmpty() && stack.peek() == '{'){
                 stack.pop();
             }
             else{

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "permutationsofString",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.permutationsofString",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "parenthesischeckinString",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.parenthesischeckinString",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.palindrome",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "noisprime",
             "request": "launch",
             "mainClass": "practiceallcodesTry1.noisprime",
