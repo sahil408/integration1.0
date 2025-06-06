@@ -36,6 +36,22 @@ public class howtoreversestring {
 
     }
 
+    public static void callletsrevusingBuilder(String s){
+        String[] str = s.split(" ");
+        StringBuilder sb = new StringBuilder();
+
+        for(int i=str.length-1;i>=0;i--){
+            char[] ch = str[i].toCharArray();
+            for(int j=0,k=ch.length-1;j<k;j++,k--){
+                 char temp = ch[k];
+                 ch[k] = ch[j];
+                 ch[j] = temp;
+            }
+            sb.append(ch).append(" ");
+        }
+        System.out.println(sb.toString());
+    }
+
     public static void main(String[] args) {
         String str = "sahil";
         callrevstr(str);
@@ -43,6 +59,7 @@ public class howtoreversestring {
 
         String str1 = "Lets Reverse It";
         callletsrev(str1);
+        callletsrevusingBuilder(str1);
 
     }
 }

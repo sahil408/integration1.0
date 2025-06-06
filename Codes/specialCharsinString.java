@@ -17,6 +17,7 @@ public class specialCharsinString {
 
     public static void main(String[] args) {
         String s = "bdhsd@#%23832@";
+        System.out.println(s);
         findspecials(s);
     }
 }
