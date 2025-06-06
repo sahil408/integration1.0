@@ -120,11 +120,11 @@ public class removeanycharfromstring {
         String s = "agbcochg dud g gAdrI";
         System.out.println(s);
         char c = 'g';
-        // callreplace(s, c);
-        // removeduplicates(s);
-        // removespaces(s);
-        // reversevowels(s);
-        // reversevowelsoptimised(s);
+        callreplace(s, c);
+        removeduplicates(s);
+        removespaces(s);
+        reversevowels(s);
+        reversevowelsoptimised(s);
         reverseVowelsUsingString(s);
     }
 }
