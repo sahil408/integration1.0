@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "vowelfrequency",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.vowelfrequency",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "vowelfrequency",
+            "request": "launch",
+            "mainClass": "vowelfrequency",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "tuple",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.tuple",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "tuple",
+            "request": "launch",
+            "mainClass": "tuple",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "swappingstringwithout3rdvariable",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.swappingstringwithout3rdvariable",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "swappingStringsWo3rdVariable",
+            "request": "launch",
+            "mainClass": "swappingStringsWo3rdVariable",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "subsequence",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry1.subsequence",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "subSequence",
+            "request": "launch",
+            "mainClass": "subSequence",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "sortarraybasedonlength",
             "request": "launch",
             "mainClass": "practiceallcodesTry1.sortarraybasedonlength",
