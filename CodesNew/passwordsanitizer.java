@@ -10,7 +10,7 @@ public class passwordsanitizer {
 
         for(String s: ls){
             if(s.length()<5){
-                continue;
+                continue;   
             }
         
 

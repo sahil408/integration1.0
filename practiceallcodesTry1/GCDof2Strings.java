@@ -5,7 +5,7 @@ public class GCDof2Strings {
     public static String callgcdStr(String str1, String str2){
         int n = gcdno(str1, str2);
         String s = str1.substring(0,n);
-        if(str1.equals(repeatstr(s, str1.length()/n)) && str2.equals(repeatstr(str2, str2.length()/n))){
+        if(str1.equals(repeatstr(s, str1.length()/n)) && str2.equals(repeatstr(s, str2.length()/n))){
             return s;
         }
         return "Not a GCD String "+ str1 + " "+ str2;

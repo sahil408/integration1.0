@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "movezeroes",
+            "request": "launch",
+            "mainClass": "CodesNew.movezeroes",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "pra",
+            "request": "launch",
+            "mainClass": "CodesNew.pra",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "stringCompressionReturningLength",
+            "request": "launch",
+            "mainClass": "CodesNew.stringCompressionReturningLength",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "stringCompression",
+            "request": "launch",
+            "mainClass": "CodesNew.stringCompression",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "increaingtripletsubsequenceoptimised",
+            "request": "launch",
+            "mainClass": "CodesNew.increaingtripletsubsequenceoptimised",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "increaingtripletsubsequence",
+            "request": "launch",
+            "mainClass": "CodesNew.increaingtripletsubsequence",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "productofarrayitselfOptimised",
+            "request": "launch",
+            "mainClass": "CodesNew.productofarrayitselfOptimised",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "productofarrayitself",
+            "request": "launch",
+            "mainClass": "CodesNew.productofarrayitself",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry2.practice",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "passwordsanitizer",
+            "request": "launch",
+            "mainClass": "practiceallcodesTry2.passwordsanitizer",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "vowelfrequency",
             "request": "launch",
             "mainClass": "practiceallcodesTry1.vowelfrequency",
