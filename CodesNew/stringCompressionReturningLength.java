@@ -1,6 +1,5 @@
 package CodesNew;
 
-import java.util.Arrays;
 
 public class stringCompressionReturningLength {
 
