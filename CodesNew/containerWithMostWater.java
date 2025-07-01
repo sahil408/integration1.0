@@ -22,9 +22,33 @@ public class containerWithMostWater {
         }
         return sum;
     }
+
+
+    public static int callwateropt(int[] n){
+        int i=0;
+        int sum = 0;
+
+        while(i<n.length){
+            for(int j=n.length-1;j>=0;j--){
+                if(n[i]>=n[j] && i<j && (n[j]*(j-i)>=sum)){
+                    sum = n[j] * (j-i);
+                }else if(n[i]<n[j] && i<j && (n[i]*(j-i)>=sum)){
+                    sum = n[i] * (j-i);
+                }
+            }
+            i++;
+        }
+        return sum;
+    }
+
+
+
     public static void main(String[] args) {
         int[] n = {1,8,6,2,5,4,8,3,7};
+        int[] n1 = {4,3,2,1,4};
         int out = callwater(n);
         System.out.println(out);
+        int out1 = callwateropt(n1);
+        System.out.println(out1);
     }
 }
