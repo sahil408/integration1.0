@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maxNoVowelsInSubstring",
+            "request": "launch",
+            "mainClass": "CodesNew.maxNoVowelsInSubstring",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "maximumAverageSubArray",
+            "request": "launch",
+            "mainClass": "CodesNew.maximumAverageSubArray",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "maxnoOfKsumPairs",
+            "request": "launch",
+            "mainClass": "CodesNew.maxnoOfKsumPairs",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "containerWithMostWater",
             "request": "launch",
             "mainClass": "CodesNew.containerWithMostWater",

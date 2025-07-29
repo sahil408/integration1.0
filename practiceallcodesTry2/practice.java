@@ -1,44 +1,32 @@
 package practiceallcodesTry2;
 
 
-
 public class practice {
 
-    public static String callfunc(String s1, String s2){
+    public static double callfun(int[] n, int k){
+        int sum =0;
 
-        int n = gcdofstr(s1, s2);
-        String s3 = s1.substring(0, n);
-
-        if(s1.equals(strcount(s3, s1.length()/n ))&& s2.equals(strcount(s3, s2.length()/n))){
-            return s3;
+        for(int i=0;i<k;i++){
+            sum = sum +n[i];
         }
-        return "";
-    }
 
-    public static String strcount(String s, int count){
-        return s.repeat(count);
-    }
+        double max = sum;
 
-    public static int gcdofstr(String s1, String s2){
-        int n1 = s1.length();
-        int n2 = s2.length();
-
-        while(n2!=0){
-            int temp = n2;
-            n2 = n1%n2;
-            n1 = temp;
+        for(int i=k;i<n.length;i++){
+            sum = sum - n[i-k] + n[i];
+            max = Math.max(sum, max);
 
         }
-        return n1;
+        return max/k;
+       
     }
-
     
 
        
     public static void main(String[] args) {
-        String s1 = "ABCABC";
-        String s2 = "ABC";
-        String s3 = callfunc(s1, s2);
-        System.out.println(s3);
+        int[] n = {2,4,7,8,5,-2,13};
+        int k = 3;
+        double b = callfun(n, k);
+        System.out.println(b);
     }
 }

@@ -25,7 +25,7 @@ public class isSubsequence {
     public static boolean callseqoptimised(String s, String t){
         int i=0, j=0;
         while(i<s.length() && j<t.length()){
-                if(s.charAt(i) == t.charAt(i)){
+                if(s.charAt(i) == t.charAt(j)){
                     i++;
                     j++;
                 }else{
@@ -33,7 +33,7 @@ public class isSubsequence {
                 }  
             }
         if(i==s.length()){
-            return true;
+            return true; 
         }else{
             return false;
         }  
@@ -47,12 +47,12 @@ public class isSubsequence {
         String s1 = "aaaaaaa";
         String t1 = "abaaaa";
 
-        boolean b = callseq(s,t);
+        boolean b = callseqoptimised(s,t);
         System.out.println(b);
 
-       boolean b1 = callseqoptimised(s1,t1);
+        boolean b1 = callseqoptimised(s1,t1);
         
-       System.out.println(b1);
+        System.out.println(b1);
     }
 }
 
