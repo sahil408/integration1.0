@@ -19,8 +19,7 @@ public class stringCompression {
                 }
                 //how to remove first char from char array which is already counted
                 s = s.replaceAll(Character.toString(ch1[0]), "");
-                len = s.length();      
-               
+                len = s.length();           
         }while(len!=0);
         System.out.println(sb);
         return sb.toString().toCharArray();

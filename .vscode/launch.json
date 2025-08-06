@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stringCompression",
+            "request": "launch",
+            "mainClass": "CodesL2.stringCompression",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "practiceCodes.practice",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "maxConsecutivesOnes",
             "request": "launch",
             "mainClass": "CodesNew.maxConsecutivesOnes",
