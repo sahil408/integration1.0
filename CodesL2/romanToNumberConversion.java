@@ -6,7 +6,7 @@ public class romanToNumberConversion {
 
         int res =0;
 
-        for(int i=0;i<s.length();i++){
+       for(int i=0;i<s.length();i++){
 
             int s1 = values(s.charAt(i));
             if(i+1<s.length()){
@@ -39,11 +39,11 @@ public class romanToNumberConversion {
         if(n=='L'){
             return 50;
         }
-        if(n=='D'){
-            return 500;
-        }
         if(n=='C'){
             return 100;
+        }
+        if(n=='D'){
+            return 500;
         }
         if(n=='M'){
             return 1000;

@@ -1,30 +1,30 @@
-import java.util.Arrays;
 
 public class practice {
-    public static char[] callfun(char[] ch){
-        String s = new String(ch);
-        int len = s.length();
-        StringBuilder sb = new StringBuilder();
-        do{
-            int count =0;
-            char[] ch1 = s.toCharArray();
-            for(int i=0;i<len;i++){
-                if(ch1[0]==ch1[i] && Character.isLetterOrDigit(ch[0])){
-                    count++;
-                }
-            }
-            if(count>=1){
-                sb.append(ch1[0]).append(count);
-            }
-            s= s.replaceAll(Character.toString(ch1[0]), "");
-            len = s.length();
-        }while(len!=0);
-        return sb.toString().toCharArray();
+    public static int callcode(String s){
+       if(s.length()==0){
+        return 0;
+       }
+
+       int count =1;
+       int i=0;
+
+       while(i<s.length()){
+        int j=i+1;
+        while(j<s.length() && s.charAt(i)== s.charAt(j)){
+            j++;
+        }
+        int len = j-i;
+        if(len>1){
+            count = count + (len-1);
+        }
+        i=j;
+       }
+       return count;
+
     }
     public static void main(String[] args) {
-        char[] ch = {'a','a','b','b','c','d'};
-        char[] out = callfun(ch);
-        System.out.println(Arrays.toString(out));
+        String s = "abbbbbccccccc";
+        System.out.println(callcode(s));
     }
 }
 

@@ -25,7 +25,7 @@ public class productofarrayitselfOptimised {
         return n;
     }
     public static void main(String[] args) {
-        int[] nums = {5,2,6,4};
+        int[] nums = {3,6,7,2};
         int[] rec = productExceptSelf(nums);
         System.out.println(Arrays.toString(rec));
     }

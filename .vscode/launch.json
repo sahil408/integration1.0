@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "originaltypedstring",
+            "request": "launch",
+            "mainClass": "CodesL2.originaltypedstring",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "passwordsanitizer",
+            "request": "launch",
+            "mainClass": "CodesL2.passwordsanitizer",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "productofarrayitselfOptimised",
+            "request": "launch",
+            "mainClass": "CodesL2.productofarrayitselfOptimised",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "stringCompressionReturningLength",
+            "request": "launch",
+            "mainClass": "CodesL2.stringCompressionReturningLength",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "stringCompression",
             "request": "launch",
             "mainClass": "CodesL2.stringCompression",
