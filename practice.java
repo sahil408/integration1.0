@@ -1,30 +1,27 @@
+import java.util.Arrays;
 
 public class practice {
-    public static int callcode(String s){
-       if(s.length()==0){
-        return 0;
-       }
+    public static void callmoveoptimised(int[] n){
 
-       int count =1;
-       int i=0;
+        int count =0;
 
-       while(i<s.length()){
-        int j=i+1;
-        while(j<s.length() && s.charAt(i)== s.charAt(j)){
-            j++;
+        for(int i=0; i<n.length;i++){
+            if(n[i]!=0){
+                n[count] = n[i];
+                count++;
+            }
         }
-        int len = j-i;
-        if(len>1){
-            count = count + (len-1);
-        }
-        i=j;
-       }
-       return count;
-
+            while(count<n.length){
+                n[count]=0;
+                count++;
+            }
+        
+       System.out.println(Arrays.toString(n));
+        
     }
     public static void main(String[] args) {
-        String s = "abbbbbccccccc";
-        System.out.println(callcode(s));
+        int[] nums1 = {0,1,0,3,12};
+        callmoveoptimised(nums1);
     }
 }
 

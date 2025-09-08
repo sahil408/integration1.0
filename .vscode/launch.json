@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "movezeroes",
+            "request": "launch",
+            "mainClass": "CodesL2.movezeroes",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "maxNoVowelsInSubstring",
+            "request": "launch",
+            "mainClass": "CodesL2.maxNoVowelsInSubstring",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "maximumAverageSubArray",
+            "request": "launch",
+            "mainClass": "CodesL2.maximumAverageSubArray",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "maxConsecutivesOnes",
+            "request": "launch",
+            "mainClass": "CodesL2.maxConsecutivesOnes",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "isSubsequence",
+            "request": "launch",
+            "mainClass": "CodesL2.isSubsequence",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "increaingtripletsubsequenceoptimised",
+            "request": "launch",
+            "mainClass": "CodesL2.increaingtripletsubsequenceoptimised",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "containerWithMostWater",
+            "request": "launch",
+            "mainClass": "CodesL2.containerWithMostWater",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "originaltypedstring",
             "request": "launch",
             "mainClass": "CodesL2.originaltypedstring",
