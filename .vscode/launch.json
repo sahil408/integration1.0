@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringMergerFactorization",
+            "request": "launch",
+            "mainClass": "CodesL2.ArraysStringsP3.StringMergerFactorization",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "StringMergerFactorization",
+            "request": "launch",
+            "mainClass": "StringMergerFactorization",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "movezeroes",
             "request": "launch",
             "mainClass": "CodesL2.movezeroes",
