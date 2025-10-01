@@ -22,7 +22,7 @@ public class StringMergerFactorization {
         int overlap2 = overlapSuffixPrefix(s2, s1);
         String merged2 = s2 + s1.substring(overlap2);
 
-        return merged1.length()<= merged2.length() ? merged1 : merged2;
+        return merged1.length()<= merged2.length() ? merged1 : merged2;  // In this less the overlap more big is the string, so doesn't matter the size of the string, more the overlap more factor
     }
     public static void main(String[] args) {
         String s1 = "teas1234";

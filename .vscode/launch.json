@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "repchar",
+            "request": "launch",
+            "mainClass": "repchar",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "NearestSmallerToLeftProblem",
+            "request": "launch",
+            "mainClass": "NearestSmallerToLeftProblem",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "NearestSmallerToLeft",
+            "request": "launch",
+            "mainClass": "NearestSmallerToLeft",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubarrayWithSum",
+            "request": "launch",
+            "mainClass": "LongestSubarrayWithSum",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "maxnoOfKsumPairs",
+            "request": "launch",
+            "mainClass": "maxnoOfKsumPairs",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "productofarrayitself",
+            "request": "launch",
+            "mainClass": "productofarrayitself",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "PrintinglongestaddingSubArray",
+            "request": "launch",
+            "mainClass": "PrintinglongestaddingSubArray",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "StringMergerFactorization",
             "request": "launch",
             "mainClass": "CodesL2.ArraysStringsP3.StringMergerFactorization",

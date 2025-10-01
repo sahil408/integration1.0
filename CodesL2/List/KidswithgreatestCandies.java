@@ -1,3 +1,4 @@
+package CodesL2.List;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,12 +15,6 @@ public class KidswithgreatestCandies {
 
         List<Boolean> res = new ArrayList<>();
 
-        //Way1
-        // for(int i=0; i<n.length;i++){
-        // res.add(n[i]+ec>maxcandies);
-        // }
-
-        //Way2
         for (int i = 0; i < n.length; i++) {
             if (n[i] + ec > maxcandies) {
                 res.add(true);

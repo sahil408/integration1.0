@@ -25,11 +25,6 @@ public class isSubsequence {
         String t = "agfbfdc";
         boolean b = callseqoptimised(s,t);
         System.out.println(b);
-
-        // String s1 = "aaaaaaa";
-        // String t1 = "abaaaa";
-        // boolean b1 = callseqoptimised(s1,t1);
-        // System.out.println(b1);
     }
 }
 
