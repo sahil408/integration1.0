@@ -1,4 +1,4 @@
-package CodesL2.ArraysStringsP3;
+
 public class repchar {
 
     public static void callfun(String s){
