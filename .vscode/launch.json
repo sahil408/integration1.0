@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "increaingtripletsubsequenceoptimised",
+            "request": "launch",
+            "mainClass": "increaingtripletsubsequenceoptimised",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "elementclosesttozer",
+            "request": "launch",
+            "mainClass": "elementclosesttozer",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "defangofIp",
+            "request": "launch",
+            "mainClass": "defangofIp",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "anagramofnumbers",
+            "request": "launch",
+            "mainClass": "anagramofnumbers",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "movezeroes",
+            "request": "launch",
+            "mainClass": "Arrays.movezeroes",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "repchar",
             "request": "launch",
             "mainClass": "repchar",

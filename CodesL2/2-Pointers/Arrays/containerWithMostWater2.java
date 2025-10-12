@@ -1,6 +1,6 @@
 package Arrays;
 
-public class containerWithMostWater {
+public class containerWithMostWater2 {
 
     public static int callwateroptfur(int[] n){
         int i=0;

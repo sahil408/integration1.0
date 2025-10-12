@@ -1,5 +1,5 @@
 
-public class practice {
+public class printingfirstchar {
     public static void callfun(String s1){
 
         StringBuilder sb  = new StringBuilder();

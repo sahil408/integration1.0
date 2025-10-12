@@ -1,7 +1,7 @@
 package Strings;
 
 
-public class isSubsequence {
+public class isSubsequence5 {
 
     public static boolean callseqoptimised(String s, String t){
         int i=0, j=0;

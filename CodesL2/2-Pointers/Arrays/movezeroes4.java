@@ -3,7 +3,7 @@ package Arrays;
 
 import java.util.Arrays;
 
-public class movezeroes {
+public class movezeroes4 {
 
     public static void callmoveoptimised(int[] nums){
         int count =0;

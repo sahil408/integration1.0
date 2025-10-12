@@ -9,7 +9,6 @@ public class GCDof2Nos {
             }
         }
         System.out.println("GCD is " + gcd);
-
     }
 
     public static int euclediancall(int n1, int n2) {
@@ -32,25 +31,17 @@ public class GCDof2Nos {
             result = euclediancall(result, a[i]);
         }
         return result;
-
     }
 
     public static void main(String[] args) {
         int n1 = 6;
         int n2 = 9;
-
         codegcdcall(n1, n2);
-
         int n = euclediancall(n1, n2);
         System.out.println("GCD of No is " + n);
-
         lcmcall(n1, n2);
-
         int[] a = { 12, 48, 60 };
-
         int res = gcdArrEle(a);
-
         System.out.println("GCD of Array is " + res);
-
     }
 }

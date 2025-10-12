@@ -1,12 +1,5 @@
 
-public class howtoreversestring {
-
-    public static void callrevstr(String str) {
-        char[] ch = str.toCharArray();
-        for (int i = ch.length - 1; i >= 0; i--) {
-            System.out.print(ch[i]);
-        }
-    }
+public class howtoreversestring9 {
 
     public static void callrevstrTC(String str) {
         char[] ch = str.toCharArray();
@@ -32,9 +25,7 @@ public class howtoreversestring {
             System.out.print(ch);
             System.out.print(" ");
         }
-
     }
-
     public static void callletsrevusingBuilder(String s){
         String[] str = s.split(" ");
         StringBuilder sb = new StringBuilder();
@@ -53,7 +44,6 @@ public class howtoreversestring {
 
     public static void main(String[] args) {
         String str = "sahil";
-        callrevstr(str);
         callrevstrTC(str);
 
         String str1 = "Lets Reverse It";
@@ -62,3 +52,20 @@ public class howtoreversestring {
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+// public static void callrevstr(String str) {
+//     char[] ch = str.toCharArray();
+//     for (int i = ch.length - 1; i >= 0; i--) {
+//         System.out.print(ch[i]);
+//     }
+// }
