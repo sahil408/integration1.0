@@ -1,5 +1,5 @@
 
-public class stringCompressionReturningLength {
+public class arrayCompressionReturningLength {
 
     // Keep in mind we have to return consecutive Characters
 
@@ -25,8 +25,6 @@ public class stringCompressionReturningLength {
         }
         return sb.length();
     }
-
-
     public static void main(String[] args) {
         char[] ch = {'a','b', 'c', 'd','d','d'};
         int out = callcompConsecutive(ch);

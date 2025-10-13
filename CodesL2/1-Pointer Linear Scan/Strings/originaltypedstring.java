@@ -1,7 +1,6 @@
 
 // Input: word = "abbcccc"
 // Output: 5
-// Explanation:
 // The possible strings are: "abbcccc", "abbccc", "abbcc", "abbc", and "abcccc".
 
 public class originaltypedstring {

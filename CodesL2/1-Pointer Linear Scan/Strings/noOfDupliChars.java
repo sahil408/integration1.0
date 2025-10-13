@@ -2,8 +2,7 @@
 
 public class noOfDupliChars {
     public static void calldupli(String s){
-        int len = s.length();
-       
+        int len = s.length();  
        do{
          char[] ch = s.toCharArray();
          int count =0;

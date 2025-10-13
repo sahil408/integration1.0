@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-public class stringCompression {
+public class arrayCompression {
     public static char[] callcomp(char[] ch){
         String s = new String(ch);
         int len = s.length();
