@@ -1,5 +1,5 @@
 
-public class repchar1 {
+public class repMaxchar {
 
     public static void callfun(String s){
         int count =1;

@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sortarraybasedonlength",
+            "request": "launch",
+            "mainClass": "CodesL2.List.sortarraybasedonlength",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "passwordsanitizer",
+            "request": "launch",
+            "mainClass": "CodesL2.List.passwordsanitizer",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "mergetwoarraysalsosort",
+            "request": "launch",
+            "mainClass": "CodesL2.List.mergetwoarraysalsosort",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "KidswithgreatestCandies",
+            "request": "launch",
+            "mainClass": "CodesL2.List.KidswithgreatestCandies",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "isSubsequence5",
+            "request": "launch",
+            "mainClass": "isSubsequence5",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "maxnoOfKsumPairs3",
+            "request": "launch",
+            "mainClass": "maxnoOfKsumPairs3",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "containerWithMostWater2",
+            "request": "launch",
+            "mainClass": "containerWithMostWater2",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "originaltypedstring",
+            "request": "launch",
+            "mainClass": "originaltypedstring",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "productofarrayitselfOptimised",
+            "request": "launch",
+            "mainClass": "productofarrayitselfOptimised",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "arrayCompressionReturningLength",
+            "request": "launch",
+            "mainClass": "arrayCompressionReturningLength",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "arrayCompression",
+            "request": "launch",
+            "mainClass": "arrayCompression",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
             "name": "stringCompression",
             "request": "launch",
             "mainClass": "stringCompression",

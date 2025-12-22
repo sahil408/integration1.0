@@ -1,4 +1,4 @@
-package Arrays;
+
 import java.util.Arrays;
 public class maxnoOfKsumPairs3 {
 
@@ -27,10 +27,6 @@ public class maxnoOfKsumPairs3 {
     public static void main(String[] args) {
         int[] n = {6,4,3,2};
         int k = 6;
-
-        // int out = callpairsarrL(n, k);
-        // System.out.println(out);
-
         int out = callpairsarrLOpt(n, k);
         System.out.println(out);
 

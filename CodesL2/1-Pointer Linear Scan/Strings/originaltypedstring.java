@@ -28,6 +28,7 @@ public class originaltypedstring {
     public static void main(String[] args) {
         String s = "abbcccc";
         System.out.println(callcode(s));
+
     }
 }
 

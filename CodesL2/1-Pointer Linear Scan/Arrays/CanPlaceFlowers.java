@@ -25,11 +25,10 @@ public class CanPlaceFlowers {
             } else
                 System.out.println("Cannot place flowers");
         }
-
     }
 
     public static void main(String[] args) {
-        int[] pots = { 1, 0, 1, 0, 0, 0, 1 };
+        int[] pots = { 1, 0, 1, 0, 0, 0, 1 ,0,0};
         int n = 2;
         placeflowers(pots, n);
     }

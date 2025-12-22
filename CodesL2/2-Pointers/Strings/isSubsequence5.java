@@ -1,5 +1,3 @@
-package Strings;
-
 
 public class isSubsequence5 {
 

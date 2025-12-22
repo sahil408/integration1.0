@@ -23,3 +23,22 @@ public class increaingtripletsubsequenceoptimised {
         System.out.println(b);
     }
 }
+
+
+
+
+// int first = Integer.MAX_VALUE;
+// int second = Integer.MAX_VALUE;
+// int i=0;
+// while (i<n.length) {
+//     if(first>=n[i]){
+//         first = n[i];
+//         i++;
+//     }else if(second>=n[i]){
+//         second = n[i];
+//         i++;
+//     }else{
+//         return true;
+//     }
+// }
+// return false;
