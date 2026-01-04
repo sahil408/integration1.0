@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Demo Suite">
+
+    <parameter name="url" value="https://the-internet.herokuapp.com"/>
+
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.qa.tests.OpenBrowserTest"/>
+        </classes>
+    </test>
+
+</suite>
