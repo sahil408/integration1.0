@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "noOfDupliChars",
+            "request": "launch",
+            "mainClass": "noOfDupliChars",
+            "projectName": "integration1.0_d1885156"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.qa.newPro.App",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
             "name": "sortarraybasedonlength",
             "request": "launch",
             "mainClass": "CodesL2.List.sortarraybasedonlength",

@@ -2,5 +2,6 @@
     "accessibility.signals.lineHasBreakpoint": {
         "sound": "off"
     },
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
