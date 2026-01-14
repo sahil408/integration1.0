@@ -7,7 +7,6 @@ import java.time.temporal.WeekFields;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -172,7 +171,7 @@ public class OpenBrowserTest {
 
     }
 
-    @Test (groups = "smoke", enabled = false)
+    @Test (groups = "smoke", enabled = true)
     // Adding a item which is more than rs 500 to cart
     public void additems(){
         // String s = driver.getTitle();

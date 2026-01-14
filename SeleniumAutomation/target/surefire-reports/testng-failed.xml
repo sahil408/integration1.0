@@ -11,9 +11,9 @@
     <classes>
       <class name="com.qa.tests.OpenBrowserTest">
         <methods>
-          <include name="bingurl"/>
           <include name="SetUpShoppingURL"/>
           <include name="tearDown"/>
+          <include name="additems"/>
         </methods>
       </class> <!-- com.qa.tests.OpenBrowserTest -->
     </classes>
